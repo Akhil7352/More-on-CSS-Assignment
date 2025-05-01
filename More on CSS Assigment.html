@@ -1,0 +1,415 @@
+<!-- Que 1. Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5 navigation links that are properly placed within the navigation bar using the CSS box model. The navigation items must change their text color on hover. -->
+
+<!-- Ans -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Added The New Font from the Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+     nav {
+            background-color: rgb(0, 0, 255,0.5);
+            padding: 15px 0;
+            /* text-align: center; */
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-family: 'Exo 2';
+        }
+        nav a:hover {
+            color: rgb(39, 14, 231);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Login</a>
+    </nav>
+
+</body>
+
+</html>
+
+
+<!-- Que 2.  Create a div centered with an image and paragraph similar to the image mentioned below. -->
+
+<!-- Ans -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div with Image and Paragraph</title>
+    <style>
+        .container img {
+            height: 200px;
+            width: 400px;
+            display: block;
+            margin: 0px auto;
+
+        }
+
+        .container--para {
+            text-align: center;
+            width: 400px;
+            display: block;
+            margin: 0px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/727c3b7e-8114-4077-997d-ab92de17d4e2.jpeg"
+            alt="Pw-Courses">
+
+        <p class="container--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sit placeat
+            dignissimos aperiam reiciendis, pariatur doloremque debitis distinctio amet ratione excepturi nemo dolor
+            iste corrupti?</p>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Que 3.  Create a navigation bar similar to question 1. For each navigation item, use a different border style. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Different Border Styles</title>
+    <style>
+        .container {
+            border: 2px solid green;
+            display: flex;
+            background-color: rgb(0, 0, 255, 0.5);
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+        .container a{
+            margin: 10px 20px;
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .container__1 {
+            border: 2px solid red;
+            
+        }
+        .container__2{
+            border: 2px dashed green;
+        }
+        .container__3{
+            border: 2px dotted blue;
+        }
+
+    .container__4{
+        border: 2px groove yellow;
+    }
+
+    .container__5{
+        border: 2px double orangered;
+    }
+    .container a:hover{
+        color: blue;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="container">
+        <a href="#" class="container__1">Home</a>
+        <a href="#" class="container__2">About Us</a>
+        <a href="#" class="container__3">Contact</a>
+        <a href="#" class="container__4">Blog</a>
+        <a href="#" class="container__5">Login</a>
+    </nav>
+</body>
+
+</html>
+
+<!-- Que 4. Create a simple webpage with an image and make the image circular using border-radius. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Image</title>
+    <style>
+        img {
+            display: block;
+            margin: 0px auto;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/b04479c6-b341-45d5-af4b-8902481921a3.jpeg"
+        alt="Circular Image">
+</body>
+
+</html>
+
+
+<!-- Que 5. Create a simple blog website about Google fonts. The webpage must have the heading with “Oswald” font align center to the page, below the heading have an image of Google fonts and a paragraph about Google fonts in font “Montserrat” paragraph font style should be“montserrat” font. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Google Fonts Blog, initial-scale=1.0">
+    <title>Google Fonts Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .header__h1 {
+            text-align: center;
+            font-family: "Oswald";
+            color: rgb(66, 133, 244);
+        }
+
+        /* .section {
+            display: flex;
+            justify-content: center;
+
+        } */
+
+        .section__image {
+            display: block;
+            margin: 0px auto;
+        }
+
+        .section__para {
+            text-align: justify;
+            width: 700px;
+            font-family: "Montserrat";
+            display: block;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head class="header">
+        <h1 class="header__h1">Google Font</h1>
+        <section class="section">
+            <img class="section__image" src="https://www.gstatic.com/images/branding/product/1x/google_fonts_96dp.png"
+                alt="Image">
+            <p class="section__para">
+                Google Fonts is a free collection of open-source font families that anyone can use. Launched in 2010, it
+                offers an easy-to-use website and tools for adding fonts to websites or Android apps using CSS. With
+                over 1,000 fonts optimized for the web, it helps designers and developers create attractive typography
+                without licensing issues, while ensuring fast load times and smooth display on all devices.
+            </p>
+        </section>
+    </head>
+</body>
+
+</html>
+
+<!-- Que 6. Create a simple website as mentioned in the below image. You can get the assets by visiting https://
+pwskills.com/about-us. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW About Page</title>
+    <style>
+        .header__title {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+        .about-content__mission {
+            text-align: justify;
+            max-width: 1000px;
+            display: block;
+            margin: 0px auto;
+            line-height: 1.5;
+
+        }
+
+        .about-content__image img {
+            display: block;
+            margin: 0px auto;
+            max-width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" role="banner">
+        <h1 class="header__title"> About Us </h1>
+    </header>
+    <main class="main" role="main">
+
+        <section class="about-content">
+            <article class="about-content__mission">PW Skills' mission is to permeate through every
+                student/professional's
+                outlook towards jobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I
+                Can Do It". We aim to do this by providing exceptional up skilling courses at affordable rates, while
+                being tech-forward so anyone, anywhere can access and improve their ability to be successful in life.
+            </article>
+
+            <div class="about-content__image">
+                <img src="https://pwskills.com/images/aboutUs/aboutUs.png" alt="PW Alakh sir Speech Image">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+
+<!-- Que 7. Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as
+default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semi-transparent card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(245, 217, 217);
+            height: 100vh;
+        }
+
+        .course-name{
+            text-align: center;
+            color: grey;
+            font-size: 23px;
+            font-weight: 700;
+            cursor: pointer;
+            
+        }
+        .course-name span{
+            color: blue;
+        }
+
+        .card img{
+            width: 430px;
+            border-radius: 10%;
+            padding-left: 36px;
+            padding-top: 23px;
+            cursor: pointer;
+        }
+
+        .card{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: 300px;
+            background-color: rgb(61, 227, 180,0.5);
+            transition: filter 0.3s ease; /* Smooth blur transition */
+        }
+
+        .card:hover{
+            background-color: white;
+            filter: blur(2px); /* Blur effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/b04479c6-b341-45d5-af4b-8902481921a3.jpeg" alt="Card Image">
+        
+        <div class="course-name">Course Name: <span>Pw Skills web development</span></div>
+    </div>
+</body>
+</html>
+
+
+<!-- Que 8. Create a simple list of items as mentioned in the below image. -->
+
+<!-- Ans -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Requirements</h1>
+        <ol class="orderlist" type="i">
+
+            <li>Systen with minimum i3 processor or better.</li>
+            <li>At least 4GB of RAM.</li>
+            <li>Working internet connection.</li>
+            <li>Dedication to learn.</li>
+
+        </ol>
+
+    </main>
+</body>
+
+</html>
+
+----------------------------------------END---------------------------------------------------------
